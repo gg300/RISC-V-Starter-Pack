@@ -1,0 +1,3 @@
+/home/rvfpga/RVfpga_Basys3/examples/LedsSwitches_C-Lang/build/CMakeFiles/LedsSwitches.elf.dir
+/home/rvfpga/RVfpga_Basys3/examples/LedsSwitches_C-Lang/build/CMakeFiles/edit_cache.dir
+/home/rvfpga/RVfpga_Basys3/examples/LedsSwitches_C-Lang/build/CMakeFiles/rebuild_cache.dir

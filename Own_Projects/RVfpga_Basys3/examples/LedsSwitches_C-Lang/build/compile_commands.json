@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/rvfpga/RVfpga_Basys3/examples/LedsSwitches_C-Lang/build",
+  "command": "/opt/imgtec/catapult-sdk_1.9.1/build/../bin/riscv64-img-elf-gcc -DCPU_FREQ=13000000 -DCUSTOM_UART -DHAS_PRINTF=0 -DNO_SEMIHOSTING=1 -DPERIPH_H=\\\"RVfpgaBasys3_periph.h\\\" -DPLATFORM_H=\\\"swerv_csr.h\\\" -DUART -I/home/rvfpga/RVfpga_Basys3/common -I/home/rvfpga/RVfpga_Basys3/common/ee_printf -I/home/rvfpga/RVfpga_Basys3/common/drivers/uart/RVfpga -I/opt/imgtec/catapult-sdk_1.9.1/build/platform/RVfpga -I/home/rvfpga/RVfpga_Basys3/common/drivers/uart -I/home/rvfpga/RVfpga_Basys3/common/drivers/psp/api_inc -I/home/rvfpga/RVfpga_Basys3/common/drivers/bsp -g -O0 -g -march=rv32im_zicsr_zifencei -mabi=ilp32 -o CMakeFiles/LedsSwitches.elf.dir/src/LedsSwitches_C-Lang.c.obj -c /home/rvfpga/RVfpga_Basys3/examples/LedsSwitches_C-Lang/src/LedsSwitches_C-Lang.c",
+  "file": "/home/rvfpga/RVfpga_Basys3/examples/LedsSwitches_C-Lang/src/LedsSwitches_C-Lang.c",
+  "output": "CMakeFiles/LedsSwitches.elf.dir/src/LedsSwitches_C-Lang.c.obj"
+},
+{
+  "directory": "/home/rvfpga/RVfpga_Basys3/examples/LedsSwitches_C-Lang/build",
+  "command": "/opt/imgtec/catapult-sdk_1.9.1/build/../bin/riscv64-img-elf-gcc -DCPU_FREQ=13000000 -DCUSTOM_UART -DHAS_PRINTF=0 -DNO_SEMIHOSTING=1 -DPERIPH_H=\\\"RVfpgaBasys3_periph.h\\\" -DPLATFORM_H=\\\"swerv_csr.h\\\" -DUART -I/home/rvfpga/RVfpga_Basys3/common -I/home/rvfpga/RVfpga_Basys3/common/ee_printf -I/home/rvfpga/RVfpga_Basys3/common/drivers/uart/RVfpga -I/opt/imgtec/catapult-sdk_1.9.1/build/platform/RVfpga -I/home/rvfpga/RVfpga_Basys3/common/drivers/uart -I/home/rvfpga/RVfpga_Basys3/common/drivers/psp/api_inc -I/home/rvfpga/RVfpga_Basys3/common/drivers/bsp -g -O0 -g -march=rv32im_zicsr_zifencei -mabi=ilp32 -o CMakeFiles/LedsSwitches.elf.dir/home/rvfpga/RVfpga_Basys3/common/ee_printf/ee_printf.c.obj -c /home/rvfpga/RVfpga_Basys3/common/ee_printf/ee_printf.c",
+  "file": "/home/rvfpga/RVfpga_Basys3/common/ee_printf/ee_printf.c",
+  "output": "CMakeFiles/LedsSwitches.elf.dir/home/rvfpga/RVfpga_Basys3/common/ee_printf/ee_printf.c.obj"
+},
+{
+  "directory": "/home/rvfpga/RVfpga_Basys3/examples/LedsSwitches_C-Lang/build",
+  "command": "/opt/imgtec/catapult-sdk_1.9.1/build/../bin/riscv64-img-elf-gcc -DCPU_FREQ=13000000 -DCUSTOM_UART -DHAS_PRINTF=0 -DNO_SEMIHOSTING=1 -DPERIPH_H=\\\"RVfpgaBasys3_periph.h\\\" -DPLATFORM_H=\\\"swerv_csr.h\\\" -DUART -I/home/rvfpga/RVfpga_Basys3/common -I/home/rvfpga/RVfpga_Basys3/common/ee_printf -I/home/rvfpga/RVfpga_Basys3/common/drivers/uart/RVfpga -I/opt/imgtec/catapult-sdk_1.9.1/build/platform/RVfpga -I/home/rvfpga/RVfpga_Basys3/common/drivers/uart -I/home/rvfpga/RVfpga_Basys3/common/drivers/psp/api_inc -I/home/rvfpga/RVfpga_Basys3/common/drivers/bsp -g -O0 -g -march=rv32im_zicsr_zifencei -mabi=ilp32 -o CMakeFiles/LedsSwitches.elf.dir/home/rvfpga/RVfpga_Basys3/common/drivers/uart/RVfpga/config_uart.c.obj -c /home/rvfpga/RVfpga_Basys3/common/drivers/uart/RVfpga/config_uart.c",
+  "file": "/home/rvfpga/RVfpga_Basys3/common/drivers/uart/RVfpga/config_uart.c",
+  "output": "CMakeFiles/LedsSwitches.elf.dir/home/rvfpga/RVfpga_Basys3/common/drivers/uart/RVfpga/config_uart.c.obj"
+},
+{
+  "directory": "/home/rvfpga/RVfpga_Basys3/examples/LedsSwitches_C-Lang/build",
+  "command": "/opt/imgtec/catapult-sdk_1.9.1/build/../bin/riscv64-img-elf-gcc -DCPU_FREQ=13000000 -DCUSTOM_UART -DHAS_PRINTF=0 -DNO_SEMIHOSTING=1 -DPERIPH_H=\\\"RVfpgaBasys3_periph.h\\\" -DPLATFORM_H=\\\"swerv_csr.h\\\" -DUART -I/home/rvfpga/RVfpga_Basys3/common -I/home/rvfpga/RVfpga_Basys3/common/ee_printf -I/home/rvfpga/RVfpga_Basys3/common/drivers/uart/RVfpga -I/opt/imgtec/catapult-sdk_1.9.1/build/platform/RVfpga -I/home/rvfpga/RVfpga_Basys3/common/drivers/uart -I/home/rvfpga/RVfpga_Basys3/common/drivers/psp/api_inc -I/home/rvfpga/RVfpga_Basys3/common/drivers/bsp -g -O0 -g -march=rv32im_zicsr_zifencei -mabi=ilp32 -o CMakeFiles/LedsSwitches.elf.dir/home/rvfpga/RVfpga_Basys3/common/drivers/uart/uart_send_char.c.obj -c /home/rvfpga/RVfpga_Basys3/common/drivers/uart/uart_send_char.c",
+  "file": "/home/rvfpga/RVfpga_Basys3/common/drivers/uart/uart_send_char.c",
+  "output": "CMakeFiles/LedsSwitches.elf.dir/home/rvfpga/RVfpga_Basys3/common/drivers/uart/uart_send_char.c.obj"
+}
+]

@@ -1,0 +1,7 @@
+# ninja log v5
+16	129	1764805862	CMakeFiles/lab.elf.dir/home/rvfpga/Own_Projects/RVfpga_Basys3/common/drivers/uart/RVfpga/config_uart.c.obj	f17daa4d3f717cd4
+0	192	1764805862	CMakeFiles/lab.elf.dir/src/lab.S.obj	78ab75aa5ff8b33
+130	245	1764805862	CMakeFiles/lab.elf.dir/home/rvfpga/Own_Projects/RVfpga_Basys3/common/drivers/uart/uart_send_char.c.obj	133061fab19925e0
+14	296	1764805862	CMakeFiles/lab.elf.dir/home/rvfpga/Own_Projects/RVfpga_Basys3/common/ee_printf/ee_printf.c.obj	cce928015c613322
+0	16	1764805908	CMakeFiles/lab.elf.dir/src/lab.S.obj	78ab75aa5ff8b33
+16	430	1764805909	lab.elf	13f529746fcde681

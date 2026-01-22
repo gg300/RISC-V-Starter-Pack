@@ -1,0 +1,5 @@
+# ninja log v5
+0	90	1763206587	CMakeFiles/LedsSwitches.elf.dir/src/LedsSwitches.S.obj	967ef23b750980cf
+90	928	1763206588	LedsSwitches.elf	35e03f3235adb748
+9	261	1764456673	CMakeFiles/LedsSwitches.elf.dir/src/LedsSwitches.S.obj	b2325163e2e0f92f
+261	1029	1764456673	LedsSwitches.elf	cc5551688270000c

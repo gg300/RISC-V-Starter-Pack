@@ -1,0 +1,157 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:206 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Generic -  - RISCV
+      The host system is: Linux - 6.2.0-37-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /opt/imgtec/catapult-sdk_1.9.1/build/../bin/riscv64-img-elf-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      /opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/bin/ld: warning: cannot find entry symbol _rvinit; defaulting to 0000000080000100
+      /tmp/cc4c2aEH.o: in function `main':
+      CMakeCCompilerId.c:(.text+0x62): relocation truncated to fit: R_RISCV_HI20 against symbol `info_version' defined in .rodata section in /tmp/cc4c2aEH.o
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/imgtec/catapult-sdk_1.9.1/build/../bin/riscv64-img-elf-gcc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/rvfpga/Own_Projects/lab4/build/CMakeFiles/3.27.6/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:1104 (message)"
+      - "/opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      riscv64-img-elf-gcc (GCC) 13.1.0
+      Copyright (C) 2023 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/rvfpga/Own_Projects/lab4/build/CMakeFiles/CMakeScratch/TryCompile-7zLaj6"
+      binary: "/home/rvfpga/Own_Projects/lab4/build/CMakeFiles/CMakeScratch/TryCompile-7zLaj6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/rvfpga/Own_Projects/lab4/build/CMakeFiles/CMakeScratch/TryCompile-7zLaj6'
+        
+        Run Build Command(s): /opt/imgtec/catapult-sdk_1.9.1/build/bin/ninja -v cmTC_4e8ff
+        [1/2] /opt/imgtec/catapult-sdk_1.9.1/build/../bin/riscv64-img-elf-gcc   -v -o CMakeFiles/cmTC_4e8ff.dir/CMakeCCompilerABI.c.obj -c /opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        Reading specs from /opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/picolibc.specs
+        rename spec link to picolibc_link
+        rename spec cpp to picolibc_cpp
+        rename spec cc1 to picolibc_cc1
+        rename spec cc1plus to picolibc_cc1plus
+        COLLECT_GCC=/opt/imgtec/catapult-sdk_1.9.1/build/../bin/riscv64-img-elf-gcc
+        Target: riscv64-img-elf
+        Configured with: /jenkins/workspace/REL-sdk_check_elf_toolchain-ubuntu/riscv-sdk-gnu-toolchain/gcc/configure --target=riscv64-img-elf --prefix=/jenkins/workspace/REL-sdk_check_elf_toolchain-ubuntu/build_x86_64-linux --disable-shared --disable-threads --enable-languages=c,c++ --with-system-zlib --enable-tls --with-newlib --with-sysroot=/jenkins/workspace/REL-sdk_check_elf_toolchain-ubuntu/build_x86_64-linux/riscv64-img-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=.././gcc --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc_zicsr_zifencei --with-tune=rocket 'CFLAGS_FOR_TARGET=-Os   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os  -mcmodel=medany'
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e8ff.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=rocket' '-march=rv64imafdc_zicsr_zifencei' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4e8ff.dir/'
+         /opt/imgtec/catapult-sdk_1.9.1/bin/../libexec/gcc/riscv64-img-elf/13.1.0/cc1 -quiet -v -imultilib . -iprefix /opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/ -isysroot /opt/imgtec/catapult-sdk_1.9.1/bin/../riscv64-img-elf -isystem /opt/imgtec/catapult-sdk_1.9.1/bin/../riscv64-img-elf/include-tiny /opt/imgtec/catapult-sdk_1.9.1/build/share/cmake-3.27/Modules/CMakeCCompilerABI.c -ftls-model=local-exec -quiet -dumpdir CMakeFiles/cmTC_4e8ff.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=rocket -march=rv64imafdc_zicsr_zifencei -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicsr_zifencei -version -o /tmp/ccgZquLu.s
+        GNU C17 (GCC) version 13.1.0 (riscv64-img-elf)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none
+        warning: GMP header version 6.1.2 differs from library version 6.2.1.
+        warning: MPFR header version 4.0.1 differs from library version 4.1.0.
+        warning: MPC header version 1.1.0 differs from library version 1.2.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/../../lib/gcc/riscv64-img-elf/13.1.0/include"
+        ignoring nonexistent directory "/opt/imgtec/catapult-sdk_1.9.1/bin/../riscv64-img-elf/usr/local/include"
+        ignoring duplicate directory "/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/../../lib/gcc/riscv64-img-elf/13.1.0/include-fixed"
+        ignoring duplicate directory "/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/../../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/include"
+        ignoring duplicate directory "/opt/imgtec/catapult-sdk_1.9.1/bin/../riscv64-img-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/imgtec/catapult-sdk_1.9.1/bin/../riscv64-img-elf/include-tiny
+         /opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/include
+         /opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/include-fixed
+         /opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/include
+        End of search list.
+        Compiler executable checksum: 0d4120644aa9c3ed671ae167141f38fa
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e8ff.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=rocket' '-march=rv64imafdc_zicsr_zifencei' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4e8ff.dir/'
+         /opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/bin/as -v --traditional-format -march=rv64imafdc_zicsr_zifencei -march=rv64imafdc_zicsr_zifencei -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_4e8ff.dir/CMakeCCompilerABI.c.obj /tmp/ccgZquLu.s
+        GNU assembler version 2.40.0 (riscv64-img-elf) using BFD version (GNU Binutils) 2.40.0.20230425
+        COMPILER_PATH=/opt/imgtec/catapult-sdk_1.9.1/bin/../libexec/gcc/riscv64-img-elf/13.1.0/:/opt/imgtec/catapult-sdk_1.9.1/bin/../libexec/gcc/:/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/bin/
+        LIBRARY_PATH=/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/:/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/:/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/lib/:/opt/imgtec/catapult-sdk_1.9.1/bin/../riscv64-img-elf/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_4e8ff.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=rocket' '-march=rv64imafdc_zicsr_zifencei' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei' '-dumpdir' 'CMakeFiles/cmTC_4e8ff.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /opt/imgtec/catapult-sdk_1.9.1/build/../bin/riscv64-img-elf-gcc  -v CMakeFiles/cmTC_4e8ff.dir/CMakeCCompilerABI.c.obj -o cmTC_4e8ff   && :
+        FAILED: cmTC_4e8ff 
+        : && /opt/imgtec/catapult-sdk_1.9.1/build/../bin/riscv64-img-elf-gcc  -v CMakeFiles/cmTC_4e8ff.dir/CMakeCCompilerABI.c.obj -o cmTC_4e8ff   && :
+        Using built-in specs.
+        Reading specs from /opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/picolibc.specs
+        rename spec link to picolibc_link
+        rename spec cpp to picolibc_cpp
+        rename spec cc1 to picolibc_cc1
+        rename spec cc1plus to picolibc_cc1plus
+        COLLECT_GCC=/opt/imgtec/catapult-sdk_1.9.1/build/../bin/riscv64-img-elf-gcc
+        COLLECT_LTO_WRAPPER=/opt/imgtec/catapult-sdk_1.9.1/bin/../libexec/gcc/riscv64-img-elf/13.1.0/lto-wrapper
+        Target: riscv64-img-elf
+        Configured with: /jenkins/workspace/REL-sdk_check_elf_toolchain-ubuntu/riscv-sdk-gnu-toolchain/gcc/configure --target=riscv64-img-elf --prefix=/jenkins/workspace/REL-sdk_check_elf_toolchain-ubuntu/build_x86_64-linux --disable-shared --disable-threads --enable-languages=c,c++ --with-system-zlib --enable-tls --with-newlib --with-sysroot=/jenkins/workspace/REL-sdk_check_elf_toolchain-ubuntu/build_x86_64-linux/riscv64-img-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --disable-tm-clone-registry --src=.././gcc --enable-multilib --with-abi=lp64d --with-arch=rv64imafdc_zicsr_zifencei --with-tune=rocket 'CFLAGS_FOR_TARGET=-Os   -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os  -mcmodel=medany'
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=/opt/imgtec/catapult-sdk_1.9.1/bin/../libexec/gcc/riscv64-img-elf/13.1.0/:/opt/imgtec/catapult-sdk_1.9.1/bin/../libexec/gcc/:/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/bin/
+        LIBRARY_PATH=/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/:/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/:/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/lib/:/opt/imgtec/catapult-sdk_1.9.1/bin/../riscv64-img-elf/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4e8ff' '-mtune=rocket' '-march=rv64imafdc_zicsr_zifencei' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei' '-dumpdir' 'cmTC_4e8ff.'
+         /opt/imgtec/catapult-sdk_1.9.1/bin/../libexec/gcc/riscv64-img-elf/13.1.0/collect2 -plugin /opt/imgtec/catapult-sdk_1.9.1/bin/../libexec/gcc/riscv64-img-elf/13.1.0/liblto_plugin.so -plugin-opt=/opt/imgtec/catapult-sdk_1.9.1/bin/../libexec/gcc/riscv64-img-elf/13.1.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccWLV6Qa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc_tiny -plugin-opt=-pass-through=-lgcc -L/opt/imgtec/catapult-sdk_1.9.1/bin/../riscv64-img-elf/lib/. -L/opt/imgtec/catapult-sdk_1.9.1/bin/../riscv64-img-elf/lib -Tpicolibc.ld --sysroot=/opt/imgtec/catapult-sdk_1.9.1/bin/../riscv64-img-elf -melf64lriscv --gc-sections -o cmTC_4e8ff /opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/lib/crt0.o -L/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0 -L/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc -L/opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/lib -L/opt/imgtec/catapult-sdk_1.9.1/bin/../riscv64-img-elf/lib CMakeFiles/cmTC_4e8ff.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lgcc -lc_tiny --end-group -lgcc /opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/lib/crtexit.o
+        /opt/imgtec/catapult-sdk_1.9.1/bin/../lib/gcc/riscv64-img-elf/13.1.0/../../../../riscv64-img-elf/bin/ld: warning: cannot find entry symbol _rvinit; defaulting to 0000000080000100
+        CMakeFiles/cmTC_4e8ff.dir/CMakeCCompilerABI.c.obj: in function `main':
+        CMakeCCompilerABI.c:(.text+0x14): relocation truncated to fit: R_RISCV_HI20 against symbol `info_sizeof_dptr' defined in .rodata section in CMakeFiles/cmTC_4e8ff.dir/CMakeCCompilerABI.c.obj
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

@@ -1,0 +1,12 @@
+# ninja log v5
+0	94	1763639485	CMakeFiles/program.elf.dir/src/program.c.obj	93664a7b01305667
+3	128	1763639485	CMakeFiles/program.elf.dir/home/rvfpga/Own_Projects/RVfpga_Basys3/common/drivers/uart/RVfpga/config_uart.c.obj	7d459eaaac44f899
+1	169	1763639485	CMakeFiles/program.elf.dir/home/rvfpga/Own_Projects/RVfpga_Basys3/common/ee_printf/ee_printf.c.obj	86cf6c2caf8e4d45
+94	184	1763639485	CMakeFiles/program.elf.dir/home/rvfpga/Own_Projects/RVfpga_Basys3/common/drivers/uart/uart_send_char.c.obj	1aba3764d167b9f4
+184	940	1763639486	program.elf	673aa8468690285a
+0	15	0	clean	8c4a61f9ccce610c
+6	334	1763994841	CMakeFiles/program.elf.dir/src/program.c.obj	93664a7b01305667
+8	423	1763994841	CMakeFiles/program.elf.dir/home/rvfpga/Own_Projects/RVfpga_Basys3/common/drivers/uart/RVfpga/config_uart.c.obj	7d459eaaac44f899
+334	731	1763994842	CMakeFiles/program.elf.dir/home/rvfpga/Own_Projects/RVfpga_Basys3/common/drivers/uart/uart_send_char.c.obj	1aba3764d167b9f4
+6	772	1763994842	CMakeFiles/program.elf.dir/home/rvfpga/Own_Projects/RVfpga_Basys3/common/ee_printf/ee_printf.c.obj	86cf6c2caf8e4d45
+772	2337	1763994843	program.elf	673aa8468690285a

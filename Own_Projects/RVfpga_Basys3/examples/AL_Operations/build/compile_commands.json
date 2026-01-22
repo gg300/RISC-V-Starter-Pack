@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/rvfpga/Own_Projects/RVfpga_Basys3/examples/AL_Operations/build",
+  "command": "/opt/imgtec/catapult-sdk_1.9.1/bin/riscv64-img-elf-gcc -DCPU_FREQ=13000000 -DCUSTOM_UART -DHAS_PRINTF=0 -DNO_SEMIHOSTING=1 -DPERIPH_H=\\\"RVfpgaBasys3_periph.h\\\" -DPLATFORM_H=\\\"swerv_csr.h\\\" -DUART -I/home/rvfpga/Own_Projects/RVfpga_Basys3/common -I/home/rvfpga/Own_Projects/RVfpga_Basys3/common/ee_printf -I/home/rvfpga/Own_Projects/RVfpga_Basys3/common/drivers/uart/whisper -I/opt/imgtec/catapult-sdk_1.9.1/build/platform/RVfpga -I/home/rvfpga/Own_Projects/RVfpga_Basys3/common/drivers/uart -g -O0 -g -march=rv32im_zicsr_zifencei -mabi=ilp32 -o CMakeFiles/AL_Operations.elf.dir/src/AL_Operations.S.obj -c /home/rvfpga/Own_Projects/RVfpga_Basys3/examples/AL_Operations/src/AL_Operations.S",
+  "file": "/home/rvfpga/Own_Projects/RVfpga_Basys3/examples/AL_Operations/src/AL_Operations.S",
+  "output": "CMakeFiles/AL_Operations.elf.dir/src/AL_Operations.S.obj"
+}
+]

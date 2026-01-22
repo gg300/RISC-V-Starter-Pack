@@ -1,0 +1,3 @@
+/home/rvfpga/Own_Projects/lab4/build/CMakeFiles/lab.elf.dir
+/home/rvfpga/Own_Projects/lab4/build/CMakeFiles/edit_cache.dir
+/home/rvfpga/Own_Projects/lab4/build/CMakeFiles/rebuild_cache.dir

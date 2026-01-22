@@ -1,0 +1,1 @@
+export CATAPULT_SDK_TOPDIR="/opt/imgtec/catapult-sdk_1.9.1"

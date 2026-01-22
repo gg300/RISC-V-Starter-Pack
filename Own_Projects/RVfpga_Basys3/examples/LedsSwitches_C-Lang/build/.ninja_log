@@ -1,0 +1,6 @@
+# ninja log v5
+0	101	1763634906	CMakeFiles/LedsSwitches.elf.dir/src/LedsSwitches_C-Lang.c.obj	44b9df247d4c3ba9
+27	132	1763634906	CMakeFiles/LedsSwitches.elf.dir/home/rvfpga/RVfpga_Basys3/common/drivers/uart/RVfpga/config_uart.c.obj	8797a5e2d80d8df3
+101	172	1763634906	CMakeFiles/LedsSwitches.elf.dir/home/rvfpga/RVfpga_Basys3/common/drivers/uart/uart_send_char.c.obj	4cbafb4094abd128
+0	239	1763634906	CMakeFiles/LedsSwitches.elf.dir/home/rvfpga/RVfpga_Basys3/common/ee_printf/ee_printf.c.obj	937d2abbf3f51102
+239	1989	1763634908	LedsSwitches.elf	91b2b8b4d08d42b2

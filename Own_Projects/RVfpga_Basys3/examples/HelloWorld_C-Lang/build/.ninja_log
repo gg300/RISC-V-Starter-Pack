@@ -1,0 +1,6 @@
+# ninja log v5
+14	177	1763636195	CMakeFiles/HelloWorld_C-Lang.elf.dir/home/rvfpga/RVfpga_Basys3/common/drivers/uart/uart_send_char.c.obj	559d9a9c10fc061b
+0	244	1763636195	CMakeFiles/HelloWorld_C-Lang.elf.dir/src/HelloWorld_C-Lang.c.obj	ada3240e3795e300
+177	353	1763636195	CMakeFiles/HelloWorld_C-Lang.elf.dir/home/rvfpga/RVfpga_Basys3/common/drivers/uart/RVfpga/config_uart.c.obj	b35a2b81b4389f0c
+19	391	1763636195	CMakeFiles/HelloWorld_C-Lang.elf.dir/home/rvfpga/RVfpga_Basys3/common/ee_printf/ee_printf.c.obj	6d5918f3e140c8aa
+392	1881	1763636196	HelloWorld_C-Lang.elf	44467e33e557f766
